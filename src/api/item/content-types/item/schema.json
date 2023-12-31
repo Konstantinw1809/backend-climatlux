@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "color": {
+      "type": "string"
+    },
+    "area": {
+      "type": "integer"
+    },
+    "cooling": {
+      "type": "decimal"
+    },
+    "heating": {
+      "type": "decimal"
+    },
+    "coolingBtu": {
+      "type": "biginteger"
+    },
+    "heatingBtu": {
+      "type": "biginteger"
+    },
+    "coolingClass": {
+      "type": "string"
+    },
+    "heatingClass": {
+      "type": "string"
+    },
+    "noiseIndoor": {
+      "type": "string"
+    },
+    "noiseOutdoor": {
+      "type": "string"
+    },
+    "scop": {
+      "type": "decimal"
+    },
+    "seer": {
+      "type": "decimal"
+    },
+    "guarantee": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "model": {
+      "type": "integer"
+    }
+  }
+}

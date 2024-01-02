@@ -45,8 +45,6 @@ module.exports = createCoreController("api::order.order", ({ strapi }) => ({
         shipping_address_collection: { allowed_countries: ["PL"] },
       });
 
-      console.log(session.id);
-
       // create the item
       await strapi
         .service("api::order.order")

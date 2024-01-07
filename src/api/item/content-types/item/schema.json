@@ -4,7 +4,8 @@
   "info": {
     "singularName": "item",
     "pluralName": "items",
-    "displayName": "Item"
+    "displayName": "Item",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -57,16 +58,20 @@
       "type": "integer"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "model": {
+      "type": "integer"
+    },
+    "category": {
       "type": "integer"
     }
   }

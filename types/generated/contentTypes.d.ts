@@ -368,6 +368,7 @@ export interface ApiItemItem extends Schema.CollectionType {
     singularName: 'item';
     pluralName: 'items';
     displayName: 'Item';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -390,6 +391,7 @@ export interface ApiItemItem extends Schema.CollectionType {
     guarantee: Attribute.Integer;
     image: Attribute.Media;
     model: Attribute.Integer;
+    category: Attribute.Integer;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
